@@ -12,7 +12,7 @@ function App() {
 			) : (
 				<>
 					<h3>$10.00</h3>
-					<img src={spatula} alt='Spatula' />
+					{/* <img src={spatula} alt='Spatula' /> */}
 					<button onClick={() => setShowItem(true)}>Purchase Spatula</button>
 				</>
 			)}
